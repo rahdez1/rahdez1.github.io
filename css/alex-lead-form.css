@@ -9,6 +9,9 @@ body, html {
     text-shadow: 2px 2px 5px black;
 }
 
+.btn {
+    width: 100%;
+}
 /*@media (min-width: 481px) {*/
     /*body, html {*/
         /*background-image: url("../img/pexels-photo-1288482-large.jpeg");*/
