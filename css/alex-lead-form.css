@@ -6,20 +6,20 @@
 body, html {
     background-image: url("../img/pexels-photo-1288482-large.jpeg");
     background-color: rgb(244,247,249);
-    background-repeat: repeat;
     background-size: cover;
     background-attachment: fixed;
-    color: whitesmoke;
+    color: rgb(232, 233, 229);
+    text-shadow: 2px 2px 5px black;
 }
 
-#cover {
-    /*background: whitesmoke center center no-repeat;*/
-    /*background-size: cover;*/
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
+/*#cover {*/
+    /*!*background: whitesmoke center center no-repeat;*!*/
+    /*!*background-size: cover;*!*/
+    /*height: 100%;*/
+    /*text-align: center;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+/*}*/
 
 #cover-caption {
     width: 100%;
