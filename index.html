@@ -9,29 +9,34 @@
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.26/css/uikit.min.css" />-->
 </head>
 <body>
-<section id="cover">
     <div id="cover-caption">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 offset-sm-3 text-center">
                     <br>
                     <br>
-                    <h1 class="text-center">The Journey to Becoming a New Home Owner Starts Here!</h1>
+                    <h1 class="text-center">Your Journey to Becoming a New Home Owner Starts Here!</h1>
                     <br>
                     <div class="info-form">
-                         <form action="" class=" justify-content-center">
+                         <form class="gform justify-content-center" action="https://script.google.com/macros/s/AKfycbynioxNBz3sr_KVxSR90Wl84T0G5CR1_LV9JD7008bY7KyoYTc/exec" method="post">
                             <div class="form-group ">
-                                <label classs="sr-only" for="full-name">Full Name</label>
-                                <input class="form-control" type="text" id="full-name" name="full-name" placeholder="Your full name..">
+                                <label class="float-left" for="first-name">First Name</label>
+                                <input class="form-control" type="text" id="first-name" name="first-name" placeholder="Your first name..">
                             </div>
 
                             <div class="form-group ">
-                                <label for="email">Email</label>
-                                <input class="form-control" type="text" id="email" name="email" placeholder="Your last name..">
+                               <label class="float-left" for="last-name">Last Name</label>
+                               <input class="form-control" type="text" id="last-name" name="last-name" placeholder="Your last name..">
                             </div>
+
                             <div class="form-group ">
-                                <label for="city">What area are you looking to purchase in?</label>
-                                <select class="form-control" id="city" name="city">
+                               <label class="float-left" for="email">Email</label>
+                               <input class="form-control" type="text" id="email" name="email" placeholder="Your email..">
+                            </div>
+
+                            <div class="form-group ">
+                                <label class="float-left" for="area">Where are you looking to purchase?</label>
+                                <select class="form-control" id="area" name="area">
                                     <option value="san-antonio">San Antonio</option>
                                     <option value="converse">Converse</option>
                                     <option value="shertz">Shertz</option>
@@ -39,13 +44,31 @@
                                     <option value="new-braunfels">New Braunfels</option>
                                 </select>
                             </div>
+
+                            <!--<div class="form-group ">-->
+                                <!--<label class="float-left" for="yearly-income">Estimated Yearly Income</label>-->
+                                <!--<input class="form-control" type="number" id="yearly-income" name="yearly-income" placeholder="Estimated Yearly Income..">-->
+                            <!--</div>-->
+
+                            <!--<div class="form-group ">-->
+                                <!--<label class="float-left" for="gross-income">Estimated Gross Income</label>-->
+                                <!--<input class="form-control" type="number" id="gross-income" name="gross-income" placeholder="Estimated Gross Income..">-->
+                            <!--</div>-->
+
+                            <!--Add these inputs-->
+                               <!--Yearly Income-->
+                               <!--Gross Income-->
+                               <!--Minimum 2 years of stable work history? y/n-->
+                               <!--Credit Range? Do you know your credit?-->
+                            <div>
+                                <button class="btn btn-success" type="submit" value="send">Get Started!</button>
+                            </div>
                         </form>
-                    </div>
-                </div>
+                    </div> <!--info-form div-->
+                </div> <!--column div-->
             </div> <!--row div-->
         </div> <!--container div-->
-    </div>
-</section>
+    </div> <!--cover-caption div-->
 <script>
 
 </script>
