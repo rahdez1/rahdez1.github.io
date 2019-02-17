@@ -1,24 +1,36 @@
-/*html,*/
-/*body{*/
-    /*height: 100%;*/
-/*}*/
-
 body, html {
     background-image: url("../img/pexels-photo-1288482-large.jpeg");
-    background-color: rgb(244,247,249);
+    background-color: rgb(244, 247, 249);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
     color: rgb(232, 233, 229);
     text-shadow: 2px 2px 5px black;
 }
 
-/*#cover {*/
-    /*!*background: whitesmoke center center no-repeat;*!*/
-    /*!*background-size: cover;*!*/
-    /*height: 100%;*/
-    /*text-align: center;*/
-    /*display: flex;*/
-    /*align-items: center;*/
+/*@media (min-width: 481px) {*/
+    /*body, html {*/
+        /*background-image: url("../img/pexels-photo-1288482-large.jpeg");*/
+        /*background-color: rgb(244, 247, 249);*/
+        /*background-size: cover;*/
+        /*background-attachment: fixed;*/
+        /*color: rgb(232, 233, 229);*/
+        /*text-shadow: 2px 2px 5px black;*/
+    /*}*/
+/*}*/
+
+/*@media (max-width: 480px) {*/
+    /*body, html {*/
+        /*background-image: url("../img/pexels-photo-1288482-large.jpeg");*/
+        /*background-color: rgb(244, 247, 249);*/
+        /*background-position: center;*/
+        /*background-size: cover;*/
+        /*background-attachment: fixed;*/
+        /*position: relative;*/
+        /*color: rgb(232, 233, 229);*/
+        /*text-shadow: 2px 2px 5px black;*/
+    /*}*/
 /*}*/
 
 #cover-caption {
